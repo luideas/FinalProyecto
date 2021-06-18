@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="/Estilos/estilos.css">
+    <script src="/Estilos/formulario.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="cabecera01"><h1 class="titulopri">PCACTUAL</h1></div>
+    <div class="container01">
+    <div class="titulo01">
+        <section class="container-video01">
+            <video clas="videop" src="/Video/Intro_video.mp4" autoplay controls width="100%" height="70%" muted></video>
+     </section>
+        <h2 class="llenfor">LLENAR FORMULARIO</h2>
+        <h2 class="texfor">Es importante su opinión es nuestros productos actuales, así nos ayudan a mejorar la calidad de nuestros productos gracias.</h2>
+    </div>
+    <div class="formulario01">
+        <form class="input01">
+            <h2 class="tituloformula">Datos Personales</h2>
+            <input type="text" placeholder="NOMBRES" id="nombre" class="entrada">
+            <input type="text" placeholder="APELLIDOS" id="apellido" class="entrada">
+            <input type="email" placeholder="EMAIL" id="email" class="entrada">
+            <input type="telefono" placeholder="TELEFONO" id="telefono" class="entrada">
+            <p><input type="checkbox" id="termino"> Termino y Condiciones</p>
+            <button type="button" class="boton" onclick="validarDatos()">Enviar</button>
+            <p id="mensaje"></p>
+        </form>
+    </div>
+    </div>
+    <div>
+    <footer class="footer">
+        <img class="logosSoc" src="/imagenes/Socialmedias-01.svg" alt="SocialMedia">
+        <p class="info">copyright &copy;2021, designed by Luideas</p>
+    </footer>
+    </div>
+</body>
+</html>
